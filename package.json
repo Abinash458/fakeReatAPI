@@ -1,0 +1,14 @@
+{
+  "name": "music_jsonserver",
+  "version": "1.0.0",
+  "description": "fake rest api for reat ecomm app",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json --port 3004"
+  },
+  "author": "Abinash Moahapatra",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
